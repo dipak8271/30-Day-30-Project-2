@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 166, 0);
+    justify-content: center;
+    display: flex;
+
+    
+}
+.inbox{
+    background-color: #fff;
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.item p{
+    margin: 5px 0 5px 15px;
+    
+
+}
